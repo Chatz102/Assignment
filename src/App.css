@@ -1,0 +1,91 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/*Main App style*/
+.App {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(241, 241, 234);
+}
+
+/*Component Styles*/
+#login-container {
+  font-family: "Poppins", sans-serif;
+  place-items: center center;
+  position: relative;
+}
+#main-container2 {
+    font-family: "Poppins", sans-serif;
+    place-items: center center;
+    position: relative;
+    border: 3px solid grey;
+    max-width: 600px;
+  }
+#card{
+  border-radius: 0.8rem;
+  font-size: 16px;
+}
+
+#sign-in {
+  max-width: 550px;
+}
+
+#register-in {
+    max-width: 350px;
+  }
+
+#reg{
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+#reg:hover{
+    font-size: medium;
+}
+#the-tasks{
+    border-bottom: 3px solid grey;
+}
+#btn {
+  background-color: rgba(47, 194, 150, 0.952);
+  border-color: rgba(94, 230, 189, 0.952);
+  border-radius: 1.5rem;
+}
+#btn:hover {
+  background-color: rgba(94, 230, 189, 0.952);
+  color: black;
+}
+#btn_logout{
+  background-color: #1a6d54;
+  border-color: #1a6d54;
+  color: #cccccc;
+  border-radius: 1.5rem;
+}
+#btn_logout:hover{
+  background-color: #1a6d54;
+  border-color: #1a6d54;
+  color: #ffffff;
+  border-radius: 1.5rem;
+  font-size: larger;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+#login_form{
+  margin-top: 3rem;
+}
+#title{
+  margin-bottom: 1.4rem;
+}
+
+/*Footer Style*/
+#Footer{
+  margin-top: 10rem;
+  background-color: rgb(241, 241, 234);
+}
+
+
+
+@media (max-width: 764px){
+  #login_form{
+    margin-top: 0.5rem;
+  }
+}
